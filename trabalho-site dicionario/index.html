@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de onclick</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modais.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 id="pedro-algayer">Pedro Algayer</h1>
+    <h1 id="palavras">Palavras</h1>
+
+    <div class="d-flex justify-content-between mt-5" style="width: 70vw; margin-left: 15vw;">
+        <div class="div-fundo-colorido cursor-pointer" id="schedule">
+            <h3>Schedule</h3>
+        </div>
+        <div class="div-fundo-colorido cursor-pointer" id="accrue">
+            <h3>Accrue</h3>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between mt-5" style="width: 70vw; margin-left: 15vw;">
+        <div class="div-fundo-colorido cursor-pointer" id="pseudonym">
+            <h3>Pseudonym</h3>
+        </div>
+        <div class="div-fundo-colorido cursor-pointer" id="jubilantly">
+            <h3>Jubilantly</h3>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between mt-5" style="width: 70vw; margin-left: 15vw;">
+        <div class="div-fundo-colorido cursor-pointer" id="yachtswoman">
+            <h3>Yachtswoman</h3>
+        </div>
+        <div class="div-fundo-colorido cursor-pointer" id="quandary">
+            <h3>Quandary</h3>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between mt-5" style="width: 70vw; margin-left: 15vw;">
+        <div class="div-fundo-colorido cursor-pointer" id="sycophant">
+            <h3>Sycophant</h3>
+        </div>
+        <div class="div-fundo-colorido cursor-pointer" id="abstention">
+            <h3>Abstention</h3>
+        </div>
+    </div>
+    
+    <div class="d-flex justify-content-between mt-5" style="width: 70vw; margin-left: 15vw;">
+        <div class="div-fundo-colorido cursor-pointer" id="ebullient">
+            <h3>Ebullient</h3>
+        </div>
+        <div class="div-fundo-colorido cursor-pointer" id="discombobulate">
+            <h3>Discombobulate</h3>
+        </div>
+    </div>
+
+
+    
+    
+    
+    
+    <h3 id="dialogo-tecnologia">Diálogo - Como a tecnologia muda o mundo</h3>
+    
+    <div class="d-flex" id="aparecerDialogo">
+        <div class="titulo-dialogo">
+        </div>
+        
+        <div class="rounded-circle bola" id="aparecerDialogo">
+        <img src="🦆 icon _arrow left 1_.png" id="seta" alt="">
+    </div>
+</div>
+
+    <div  id="contexto">
+    
+    </div>
+    <!-- MODAIS E FUNDO -->
+    
+    
+    <div id="fundoDesfocado"></div>
+    
+    <div class="modal" id="modalSchedule">
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalSchedule">
+            <div class="border-bottom-words d-flex">
+                <h1>Schedule</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioSchedule">
+                <audio id="audioSchedule" src="Words/schedule-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Noun</h5>
+                <p class=>A list of the times when events are planned to happen.</p>
+            </div>
+    
+            <div class="border-bottom-words d-flex">
+                <h1>Agendar</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioAgendar">
+                <audio id="audioAgendar" src="Palavras/agendar.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Verbo</h5>
+                <p>Preparar, organizar (um evento, uma reunião etc. com agenda e pauta).</p>
+            </div>
+        </div>      
+    </div>
+    
+    
+    
+    
+    <div class="modal" id="modalAccrue">
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalAccrue">
+            <div class="border-bottom-words d-flex">
+                <h1>Accrue</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioAccrue">
+                <audio id="audioAccrue" src="Words/accrue-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Verb</h5>
+                <p>(Of sums of money or benefits) be received by someone in regular or increasing amounts over time.</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Acumular</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioAcumular">
+                <audio id="audioAcumular" src="Palavras/acumular.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Verbo</h5>
+                <p>Juntar, amontoar (bens, riquezas) ou fazer fortuna.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="modal" id="modalPseudonym">   
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalPseudonym">
+            <div class="border-bottom-words d-flex">
+                <h1>Pseudonym</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioPseudonym">
+                <audio id="audioPseudonym" src="Words/pseudonym-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Noun</h5>
+                <p>A fictitious name, especially one used by an author.</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Pseudônimo</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioPseudonimo">
+                <audio id="audioPseudonimo" src="Palavras/pseudônimo.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Subistantivo masculino</h5>
+                <p>Nome adotado por autor ou responsável por uma obra (literária ou de qualquer outra natureza), que não usa o seu nome civil verdadeiro ou o seu nome consuetudinário, por modéstia ou conveniência ocasional ou permanente, com ou sem real encobrimento de sua pessoa.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="modal" id="modalJubilantly">   
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalJubilantly">
+            <div class="border-bottom-words d-flex">
+                <h1>Jubilantly</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioJubilantly">
+                <audio id="audioJubilantly" src="Words/jubilantly-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Adverb</h5>
+                <p>A fictitious name, especially one used by an author.</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Jubilosamente</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioJubilosamente">
+                <audio id="audioJubilosamente" src="Palavras/jubilosamente.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Advérvio</h5>
+                <p>De modo jubiloso, extremamente alegre e festivo</p>
+            </div>
+        </div> 
+    </div>
+    
+    
+    
+    <div class="modal" id="modalYachtswoman">   
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalYachtswoman">
+            <div class="border-bottom-words d-flex">
+                <h1>Yachtswoman</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioYachtswoman">
+                <audio id="audioYachtswoman" src="Words/yatchswoman-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Noun</h5>
+                <p>A woman who sails yachts.</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Velejadora</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioVelejadora">
+                <audio id="audioVelejadora" src="Palavras/velejadora.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Substantivo feminino</h5>
+                <p>Aquela que navega à vela</p>
+            </div>
+    </div>
+    
+    
+    
+    <div class="modal" id="modalQuandary">   
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalQuandary">
+            <div class="border-bottom-words d-flex">
+                <h1>Quandary</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioQuandary">
+                <audio id="audioQuandary" src="Words/quandary-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Noun</h5>
+                <p>a state of perplexity or uncertainty over what to do in a difficult situation.</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Dilema</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioDilema">
+                <audio id="audioDilema" src="Palavras/dilema.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Substantivo masculino</h5>
+                <p>Raciocínio que parte de premissas contraditórias e mutuamente excludentes, mas que paradoxalmente terminam por fundamentar uma mesma conclusão</p>
+            </div>  
+    </div>
+    
+    
+    
+    <div class="modal" id="modalSycophant">   
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalSycophant">
+            <div class="border-bottom-words d-flex">
+                <h1>Sycophant</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioSycophant">
+                <audio id="audioSycophant" src="Words/sycopahnt-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Noun</h5>
+                <p>a state of perplexity or uncertainty over what to do in a difficult situation.</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Bajulador</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioBajulador">
+                <audio id="audioBajulador" src="Palavras/bajulador.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Substantivo masculino</h5>
+                <p>Que ou aquele que bajula alguém</p>
+            </div>    
+        </div>
+    
+    
+    
+    <div class="modal" id="modalAbstention">   
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalAbstention">
+            <div class="border-bottom-words d-flex">
+                <h1>Abstention</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioAbstention">
+                <audio id="audioAbstention" src="Words/abstention-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Noun</h5>
+                <p>The fact or practice of restraining oneself from indulging in something; abstinence.</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Abstenção</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioAbstencao">
+                <audio id="audioAbstencao" src="Palavras/abstenção.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Substantivo feminino</h5>
+                <p>Recusa voluntária de membro de assembleia de intervir, como participante, em discussão, deliberação, decisão etc.</p>
+            </div>    
+        </div>
+    </div>
+    
+    
+    
+    <div class="modal" id="modalEbullient">   
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalEbullient">
+            <div class="border-bottom-words d-flex">
+                <h1>Ebullient</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioEbullient">
+                <audio id="audioEbullient" src="Words/ebullient-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Adjective</h5>
+                <p>Cheerful and full of energy.</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Efervescente</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioEfervescente">
+                <audio id="audioEfervescente" src="Palavras/efervescente.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>Adjetivo de dois gêneros</h5>
+                <p>Que apresenta ou pode apresentar efervescência.</p>
+            </div>    
+        </div>
+    </div>
+    
+    
+    
+    <div class="modal" id="modalDiscombobulate">
+        <div>
+            <img src="icon-fechar-modal.png" alt="" id="fecharModalDiscombobulate">
+            <div class="border-bottom-words d-flex">
+                <h1>Discombobulate</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioDiscombobulate">
+                <audio id="audioDiscombobulate" src="Words/discombobulate-word.ogg">audio>
+            </div>
+            <div class="margin-definicao-palavra">
+                <h5>verb</h5>
+                <p>Disconcert or confuse (someone).</p>
+            </div>
+            
+            <div class="border-bottom-words d-flex">    
+                <h1>Desconcertar</h1>
+                <img src="🦆 icon _audio_.png" alt="" id="imgTocarAudioDesconcertar">
+                <audio id="audioDesconcertar" src="Palavras/desconcertar.ogg">audio>
+            </div> 
+            <div class="margin-definicao-palavra">
+                <h5>Transitivo direto e prenominal</h5>
+                <p>Fazer perder ou perder o concerto, a ordem, a harmonia.</p>
+            </div>    
+        </div> 
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

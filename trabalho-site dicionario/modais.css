@@ -1,0 +1,434 @@
+#modalSchedule{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalSchedule{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalSchedule:hover{
+    cursor: pointer;
+}
+#imgTocarAudioSchedule{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioSchedule:hover{
+    cursor: pointer;
+}
+#imgTocarAudioAgendar{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioAgendar:hover{
+    cursor: pointer;
+}
+
+
+
+#modalAccrue{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalAccrue{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalAccrue:hover{
+    cursor: pointer;
+}
+#imgTocarAudioAccrue:hover{
+    cursor: pointer;
+}
+#imgTocarAudioAccrue{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 380px;
+}
+#imgTocarAudioAcumular{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioAcumular:hover{
+    cursor: pointer;
+}
+
+
+#modalPseudonym{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalPseudonym{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalPseudonym:hover{
+    cursor: pointer;
+}
+#imgTocarAudioPseudonym{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 300px;
+}
+#imgTocarAudioPseudonym:hover{
+    cursor: pointer;
+}
+#imgTocarAudioPseudonimo{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 300px;
+}
+#imgTocarAudioPseudonimo:hover{
+    cursor: pointer;
+}
+
+
+
+
+#modalJubilantly{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalJubilantly{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalJubilantly:hover{
+    cursor: pointer;
+}
+#imgTocarAudioJubilantly{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioJubilantly:hover{
+    cursor: pointer;
+}
+#imgTocarAudioJubilosamente{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 260px;
+}
+#imgTocarAudioJubilosamente:hover{
+    cursor: pointer;
+}
+
+
+
+
+#modalYachtswoman{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalYachtswoman{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalYachtswoman:hover{
+    cursor: pointer;
+}
+#imgTocarAudioYachtswoman{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 270px;
+}
+#imgTocarAudioYachtswoman:hover{
+    cursor: pointer;
+}
+#imgTocarAudioVelejadora{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 330px;
+}
+#imgTocarAudioVelejadora:hover{
+    cursor: pointer;
+}
+
+
+
+
+#modalQuandary{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalQuandary{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalQuandary:hover{
+    cursor: pointer;
+}
+#imgTocarAudioQuandary{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}#imgTocarAudioQuandary{
+    cursor: pointer;
+}
+#imgTocarAudioDilema{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 390px;
+}
+#imgTocarAudioDilema:hover{
+    cursor: pointer;
+}
+
+
+
+
+#modalSycophant{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalSycophant{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalSycophant:hover{
+    cursor: pointer;
+}
+#imgTocarAudioSycophant{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioSycophant:hover{
+    cursor: pointer;
+}
+#imgTocarAudioBajulador{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioBajulador:hover{
+    cursor: pointer;
+}
+
+
+
+
+#modalAbstention{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalAbstention{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalAbstention:hover{
+    cursor: pointer;
+}
+#imgTocarAudioAbstention{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioAbstention:hover{
+    cursor: pointer;
+}
+#imgTocarAudioAbstencao{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioAbstencao:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+#modalEbullient{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalEbullient{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalEbullient:hover{
+    cursor: pointer;
+}
+#imgTocarAudioEbullient{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 350px;
+}
+#imgTocarAudioEbullient:hover{
+    cursor: pointer;
+}
+#imgTocarAudioEfervescente{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 280px;
+}
+#imgTocarAudioEfervescente:hover{
+    cursor: pointer;
+}
+
+
+
+
+#modalDiscombobulate{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+    visibility: hidden;
+    z-index: 2;
+}
+#fecharModalDiscombobulate{
+    margin-left: 570px;
+    height: 42px;
+    width: 42px;
+}
+#fecharModalDiscombobulate:hover{
+    cursor: pointer;
+}
+
+#imgTocarAudioDiscombobulate{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 230px;
+}
+#imgTocarAudioDiscombobulate:hover{
+    cursor: pointer;
+}
+#imgTocarAudioDesconcertar{
+    height: 35.92px;
+    width:  50.7px;
+    margin-left: 277px;
+}
+#imgTocarAudioDesconcertar:hover{
+    cursor: pointer;
+}
